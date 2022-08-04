@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Contact</title>
+</head>
+
+<body>
+  <p><b>My contact details</b></p>
+  <address>
+    <p><i><b>Nooby Noob</b></i></p>
+    <p>Studies at <a href="https://www.udemy.com/">Udemy</a></p>
+    <p>Some house</p>
+    <p>Some street</p>
+    <p>Some state and country you don't need to know</p>
+    <p>email: <a href="mailto:mymailid@mail.com?subject=feedback">email me</a></p>
+    <p>Mobile No: <a href="tel=+918327650248">Call me</a></p>
+  </address>
+
+  <form class="" action="mailto:officialmailid@mail.com" method="post" enctype="text/plain">
+    <label>Name:
+      <input type="text" name="yourName" value="" autofocus placeholder="e.g. John Doe">
+    </label><br>
+    <label>Tel No:
+      <input type="tel" name="yourNumber" value="">
+    </label><br>
+    <label>E-mail:
+      <input type="email" name="yourEmail" value="" required>
+    </label><br>
+    <label>password:
+      <input type="password" name="yourpassword" value="" required>
+    </label><br>
+    <label>DoB:
+      <input type="datetime-local" name="yourDoB" value="">
+    </label><br>
+    <label>Gender </label>
+    <label>Male <input type="radio" name="yourGender" value="Male"></label>
+    <label>Female <input type="radio" name="yourGender" value="Female"></label><br>
+    <label>Your favorite color:
+      <input type="color" name="yourFavColor" value="">
+    </label><br>
+    <label for="pets">Favourite pets:
+      <select class="" name="yourFavPet" id="pets">
+        <option value="" selected>--Please choose an option--</option>
+        <optgroup label="Recommended">
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="fish">Fish</option>
+        </optgroup>
+        <optgroup label="Requires a lot of care">
+          <option value="ant">Ant</option>
+          <option value="turtle">Turtle</option>
+          <option value="Rabbit">Rabbit</option>
+          <option value="Goat">Goat</option>
+          <option value="cow">Cow</option>
+          <option value="mause">Mause</option>
+          <option value="hamster">Hamster</option>
+        </optgroup>
+        <optgroup label="Caged(They too love their freedom you sadist)">
+          <option value="Parrot">Parrot</option>
+          <option value="sparrow">Sparrow</option>
+          <option value="Other birds">Other birds</option>
+        </optgroup>
+        <optgroup label="Ferocious(Best suitable for wilderness)">
+          <option value="Lion">Lion</option>
+          <option value="Giraffe">Giraffe</option>
+          <option value="Tiger">Tiger</option>
+          <option value="elephant">Elephant</option>
+          <option value="Wolf">Wolf</option>
+        </optgroup>
+        <optgroup label="NOT Recommended(Illegal in almost all of the jurisdictions)">
+          <option value="human">Human</option>
+        </optgroup>
+      </select>
+    </label>
+    <label>Add a picture: <input type="file" name="yourPic" value=""> </label><br>
+    <label>Your message:</label><br>
+    <textarea name="yourMessage" rows="10" cols="50" minlength="50" maxlength="200" spellcheck="true" placeholder="Write your message here........"></textarea><br>
+    <label>
+      <input type="submit" name="" value="Submit">
+    </label>
+    <input type="reset" name="" value="Reset">
+
+    <br><br>
+    <input type="image" name="" value="" src="D:\Web Development\HTML\buuu.png">
+
+  </form>
+  <form class="" action="index.html" method="post">
+    <input type="submit" name="" value="Back" title="Go back to home page">
+  </form>
+
+</body>
+
+</html>
